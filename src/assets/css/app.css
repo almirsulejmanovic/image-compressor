@@ -1,0 +1,58 @@
+body {
+  background: url('../img/bg.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 27vw;
+  object-fit: cover;
+}
+
+.modal-dialog {
+  max-width: 525px;
+}
+
+.margin {
+  margin-top: 80px;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 20px;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.table-max-500 {
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .margin {
+    margin-top: 75px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .vr {
+    display: none;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+  }
+
+  .margin {
+    margin-top: 75px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5x;
+  }
+}
